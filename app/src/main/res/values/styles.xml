@@ -8,14 +8,35 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <!-- Basic Name EditText and Questions LinearLayout style -->
-    <style name="Basic">
+    <!-- Basic EditText style -->
+    <style name="BasicEditText">
 
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">16dp</item>
         <item name="android:layout_marginLeft">16dp</item>
         <item name="android:layout_marginRight">16dp</item>
+
+    </style>
+
+
+    <!-- Basic Question LinearLayout style inherits from BasicEditText style -->
+    <style name="BasicQuestionLinearLayout" parent="BasicEditText">
+
+        <item name="layout_marginTop">0dp</item>
+        <item name="layout_marginBottom">16dp</item>
+        <item name="android:orientation">vertical</item>
+
+    </style>
+
+
+    <!-- Basic Question Text style inherits from BasicEditText style -->
+    <style name="BasicQuestionText" parent="BasicEditText">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:textSize">16sp</item>
 
     </style>
 

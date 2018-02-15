@@ -11,8 +11,16 @@
         android:orientation="vertical">
 
         <EditText
-            style="@style/Basic"
+            style="@style/BasicEditText"
             android:hint="Name" />
+
+        <LinearLayout
+            style="@style/BasicQuestionLinearLayout">
+
+            <TextView
+                style="@style/BasicQuestionText" />
+
+        </LinearLayout>
 
     </LinearLayout>
 
