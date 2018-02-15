@@ -18,7 +18,8 @@
             style="@style/BasicQuestionLinearLayout">
 
             <TextView
-                style="@style/BasicQuestionText" />
+                style="@style/BasicQuestionText"
+                android:text="@string/question1" />
 
         </LinearLayout>
 
