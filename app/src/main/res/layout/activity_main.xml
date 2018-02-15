@@ -12,7 +12,7 @@
 
         <EditText
             style="@style/BasicEditText"
-            android:hint="Name" />
+            android:hint="@string/name" />
 
         <LinearLayout
             style="@style/BasicQuestionLinearLayout">
