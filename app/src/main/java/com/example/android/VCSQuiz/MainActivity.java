@@ -1,4 +1,4 @@
-package com.example.android.quiz;
+package com.example.android.VCSQuiz;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

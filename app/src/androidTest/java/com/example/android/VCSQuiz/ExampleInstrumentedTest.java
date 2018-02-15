@@ -1,4 +1,4 @@
-package com.example.android.quiz;
+package com.example.android.VCSQuiz;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
