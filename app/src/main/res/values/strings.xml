@@ -2,4 +2,8 @@
     <string name="app_name">Quiz</string>
     <string name="name">Name</string>
     <string name="question1">1 / Version control system is a system that records changes to a file or a set of files over time so that you can recall to a apecific version later</string>
+    <string name="question1_choice1">Hadoop</string>
+    <string name="question1_choice2">CVS</string>
+    <string name="question1_choice3">Mercurial</string>
+    <string name="question1_choice4">Linux</string>
 </resources>

@@ -21,6 +21,23 @@
                 style="@style/BasicQuestionText"
                 android:text="@string/question1" />
 
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question1_choice1" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question1_choice2" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question1_choice3" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question1_choice4" />
+
+
         </LinearLayout>
 
     </LinearLayout>
