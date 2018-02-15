@@ -1,10 +1,51 @@
 <resources>
     <string name="app_name">Quiz</string>
+
     <string name="name">Name</string>
+
     <string name="main_question">Choose the best answer(s) for the following questions</string>
+
     <string name="question1">1 / Version control system is a system that records changes to a file or a set of files over time so that you can recall to a apecific version later</string>
-    <string name="question1_choice1">Hadoop</string>
-    <string name="question1_choice2">CVS</string>
-    <string name="question1_choice3">Mercurial</string>
-    <string name="question1_choice4">Linux</string>
+    <string name="true_choice">true</string>
+    <string name="false_choice">false</string>
+
+    <string name="question2">2 / Examples of version control systems</string>
+    <string name="question2_choice1">Hadoop</string>
+    <string name="question2_choice2">CVS</string>
+    <string name="question2_choice3">Mercurial</string>
+    <string name="question2_choice4">Linux</string>
+
+    <string name="question3">3 / Benefits of version control systems</string>
+    <string name="question3_choice1">Capability of comparing different versions</string>
+    <string name="question3_choice2">Enhances software design</string>
+    <string name="question3_choice3">Resolves bugs automaticaly</string>
+    <string name="question3_choice4">Helps developers collaborate</string>
+
+    <string name="question4">4 / The command line : Git log</string>
+    <string name="question4_choice1">displays branches of current repository</string>
+    <string name="question4_choice2">displays remotes of current repository</string>
+    <string name="question4_choice3">displays commits of current repository</string>
+    <string name="question4_choice4">Initiate a new Git repository</string>
+
+    <string name="question5">5 / The multiple files you want to track together is known as</string>
+    <string name="question5_choice1">Commit</string>
+    <string name="question5_choice2">Branch</string>
+    <string name="question5_choice3">Repository</string>
+    <string name="question5_choice4">Remote</string>
+
+    <string name="question6">6 / Which command line you use to download a specific repository from Github to your computer</string>
+    <string name="question6_choice1">Git branch URL</string>
+    <string name="question6_choice2">Git remote URL</string>
+    <string name="question6_choice3">Git clone URL</string>
+    <string name="question6_choice4">Git pull URL</string>
+
+    <string name="question7">7 / Which command line you use to discard changes made in a specific file in working directory</string>
+    <string name="question7_choice1">Git reset file_name</string>
+    <string name="question7_choice2">Git remove file_name</string>
+    <string name="question7_choice3">Git checkout -- file_name</string>
+    <string name="question7_choice4">Git checkout file_name</string>
+
+    <string name="question8">8 / To add a remote to your repository, you use the command line : Git remote add remote_name</string>
+
+
 </resources>

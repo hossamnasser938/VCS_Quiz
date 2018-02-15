@@ -27,22 +27,181 @@
 
             <CheckBox
                 style="@style/BasicQuestionChoiceCheckBox"
-                android:text="@string/question1_choice1" />
+                android:text="@string/true_choice" />
 
             <CheckBox
                 style="@style/BasicQuestionChoiceCheckBox"
-                android:text="@string/question1_choice2" />
-
-            <CheckBox
-                style="@style/BasicQuestionChoiceCheckBox"
-                android:text="@string/question1_choice3" />
-
-            <CheckBox
-                style="@style/BasicQuestionChoiceCheckBox"
-                android:text="@string/question1_choice4" />
-
+                android:text="@string/false_choice" />
 
         </LinearLayout>
+
+        <LinearLayout
+            style="@style/BasicQuestionLinearLayout">
+
+            <TextView
+                style="@style/BasicQuestionText"
+                android:text="@string/question2" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question2_choice1" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question2_choice2" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question2_choice3" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question2_choice4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/BasicQuestionLinearLayout">
+
+            <TextView
+                style="@style/BasicQuestionText"
+                android:text="@string/question3" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question3_choice1" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question3_choice2" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question3_choice3" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question3_choice4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/BasicQuestionLinearLayout">
+
+            <TextView
+                style="@style/BasicQuestionText"
+                android:text="@string/question4" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question4_choice1" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question4_choice2" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question4_choice3" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question4_choice4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/BasicQuestionLinearLayout">
+
+            <TextView
+                style="@style/BasicQuestionText"
+                android:text="@string/question5" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question5_choice1" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question5_choice2" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question5_choice3" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question5_choice4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/BasicQuestionLinearLayout">
+
+            <TextView
+                style="@style/BasicQuestionText"
+                android:text="@string/question6" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question6_choice1" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question6_choice2" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question6_choice3" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question6_choice4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/BasicQuestionLinearLayout">
+
+            <TextView
+                style="@style/BasicQuestionText"
+                android:text="@string/question7" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question7_choice1" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question7_choice2" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question7_choice3" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/question7_choice4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/BasicQuestionLinearLayout">
+
+            <TextView
+                style="@style/BasicQuestionText"
+                android:text="@string/question8" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/true_choice" />
+
+            <CheckBox
+                style="@style/BasicQuestionChoiceCheckBox"
+                android:text="@string/false_choice" />
+
+        </LinearLayout>
+
 
     </LinearLayout>
 
