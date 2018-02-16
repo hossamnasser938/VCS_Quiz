@@ -8,7 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <!-- Basic EditText style -->
+    <!-- BasicEditText style for name EditText-->
     <style name="BasicEditText">
 
         <item name="android:layout_width">match_parent</item>
@@ -20,17 +20,26 @@
     </style>
 
 
-    <!-- Basic Question LinearLayout style inherits from BasicEditText style -->
-    <style name="BasicQuestionLinearLayout" parent="BasicEditText">
+    <!-- BasicButton style inherits from BasicEditText style for submit_answer button-->
+    <style name="BasicButton" parent="BasicEditText">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+
+    </style>
+
+
+    <!-- BasicQuestionLinearLayout style inherits from BasicButton style for questions of the quiz-->
+    <style name="BasicQuestionLinearLayout" parent="BasicButton">
 
         <item name="android:layout_marginTop">0dp</item>
-        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_width">match_parent</item>
         <item name="android:orientation">vertical</item>
 
     </style>
 
 
-    <!-- Basic Main Question style inherits from BasicEditText style -->
+    <!-- BasicMainQuestion style inherits from BasicEditText style for the main question of the quiz-->
     <style name="BasicMainQuestionText" parent="BasicEditText">
 
         <item name="android:layout_marginBottom">0dp</item>
@@ -40,7 +49,7 @@
     </style>
 
 
-    <!-- Basic Question Text style inherits from BasicEditText style -->
+    <!-- BasicQuestionText style inherits from BasicMainQuestionText style for question text -->
     <style name="BasicQuestionText" parent="BasicMainQuestionText">
 
         <item name="android:layout_marginTop">16dp</item>
@@ -50,6 +59,7 @@
     </style>
 
 
+    <!-- BasicButton style inherits from BasicQuestionText style for choices of questions -->
     <style name="BasicQuestionChoiceCheckBox" parent="BasicQuestionText">
 
         <item name="android:layout_marginTop">0dp</item>

@@ -47,5 +47,6 @@
 
     <string name="question8">8 / To add a remote to your repository, you use the command line : Git remote add remote_name</string>
 
+    <string name="submit_button">Submit Answer</string>
 
 </resources>
