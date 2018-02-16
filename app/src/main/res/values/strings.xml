@@ -47,6 +47,9 @@
 
     <string name="question8">8 / To add a remote to your repository, you use the command line : Git remote add remote_name</string>
 
+    <string name="question9">9 / Write the command line that adds commits you have recently done in your master branch to the github remote which is called origin\nthe command should be all in lowercase with no extra(not required) space</string>
+    <string name="question9_answer">git push origin master</string>
+
     <string name="submit_button">Submit Answer</string>
 
 </resources>

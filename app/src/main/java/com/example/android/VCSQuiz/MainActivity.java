@@ -29,9 +29,10 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * This function calculates student grade
-     * @return student grade from 0 to 8
+     * @return student grade from 0 to 9
      */
     private int calculateGrade(){
+        EditText question9Answer;
         int grade = 0;
         if(isQuestionAnswerCorrect(1 , true , false)){
             grade++;
@@ -55,6 +56,10 @@ public class MainActivity extends AppCompatActivity {
             grade++;
         }
         if(isQuestionAnswerCorrect(8 , false , true)){
+            grade++;
+        }
+        question9Answer = (EditText) findViewById(R.id.question9_edit_text);
+        if(question9Answer.getText().equals(getResources().getString(R.string.question9_answer))){
             grade++;
         }
         return grade;

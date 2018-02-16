@@ -246,6 +246,21 @@
         </LinearLayout>
 
         <LinearLayout
+            style="@style/BasicQuestionLinearLayout">
+
+            <TextView
+                style="@style/BasicMainQuestionText"
+                android:text="@string/question9"/>
+
+            <EditText
+                android:id="@+id/question9_edit_text"
+                style="@style/BasicEditText"
+                android:layout_marginTop="0dp"
+                android:inputType="text"/>
+
+        </LinearLayout>
+
+        <LinearLayout
             style="@style/BasicQuestionLinearLayout"
             android:gravity="center">
 
