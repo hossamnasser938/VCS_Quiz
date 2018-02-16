@@ -27,15 +27,22 @@
                 style="@style/BasicQuestionText"
                 android:text="@string/question1" />
 
-            <CheckBox
-                android:id="@+id/question1_choice1"
+            <RadioGroup
                 style="@style/BasicQuestionChoiceCheckBox"
-                android:text="@string/true_choice" />
+                android:orientation="vertical">
 
-            <CheckBox
-                android:id="@+id/question1_choice2"
-                style="@style/BasicQuestionChoiceCheckBox"
-                android:text="@string/false_choice" />
+                <RadioButton
+                    android:id="@+id/question1_choice1"
+                    style="@style/BasicRadioButton"
+                    android:text="@string/true_choice"/>
+
+                <RadioButton
+                    android:id="@+id/question1_choice2"
+                    style="@style/BasicRadioButton"
+                    android:text="@string/false_choice"/>
+
+            </RadioGroup>
+
 
         </LinearLayout>
 
@@ -220,15 +227,21 @@
                 style="@style/BasicQuestionText"
                 android:text="@string/question8" />
 
-            <CheckBox
-                android:id="@+id/question8_choice1"
+            <RadioGroup
                 style="@style/BasicQuestionChoiceCheckBox"
-                android:text="@string/true_choice" />
+                android:orientation="vertical">
 
-            <CheckBox
-                android:id="@+id/question8_choice2"
-                style="@style/BasicQuestionChoiceCheckBox"
-                android:text="@string/false_choice" />
+                <RadioButton
+                    android:id="@+id/question8_choice1"
+                    style="@style/BasicRadioButton"
+                    android:text="@string/true_choice"/>
+
+                <RadioButton
+                    android:id="@+id/question8_choice2"
+                    style="@style/BasicRadioButton"
+                    android:text="@string/false_choice"/>
+
+            </RadioGroup>
 
         </LinearLayout>
 
