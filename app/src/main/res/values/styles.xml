@@ -60,10 +60,9 @@
 
 
     <!-- BasicButton style inherits from BasicQuestionText style for choices of questions -->
-    <style name="BasicQuestionChoiceCheckBox" parent="BasicQuestionText">
+    <style name="BasicQuestionChoiceCheckBox" parent="BasicMainQuestionText">
 
         <item name="android:layout_marginTop">0dp</item>
-        <item name="android:layout_marginBottom">0dp</item>
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">@android:color/holo_blue_light</item>
         <item name="android:paddingLeft">16dp</item>
