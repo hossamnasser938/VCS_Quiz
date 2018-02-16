@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * This function is called when submit_answer button is clicked
+     * @param view is the button that is clicked
      */
     public void submitAnswer(View view){
         EditText nameEditText = (EditText) findViewById(R.id.name_edit_text);
@@ -26,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * This function calculates studen grade
+     * This function calculates student grade
+     * @return student grade from 0 to 8
      */
     private int calculateGrade(){
         int grade = 0;
