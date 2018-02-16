@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/BasicQuestionLinearLayout">
+
+    <TextView
+        style="@style/BasicQuestionText"
+        android:text="@string/question1" />
+
+    <RadioGroup
+        style="@style/BasicQuestionChoiceCheckBox"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/question1_choice1"
+            style="@style/BasicRadioButton"
+            android:text="@string/true_choice"/>
+
+        <RadioButton
+            android:id="@+id/question1_choice2"
+            style="@style/BasicRadioButton"
+            android:text="@string/false_choice"/>
+
+    </RadioGroup>
+
+</LinearLayout>

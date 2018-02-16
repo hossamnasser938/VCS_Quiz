@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/BasicQuestionLinearLayout">
+
+    <TextView
+        style="@style/BasicQuestionText"
+        android:text="@string/question3" />
+
+    <CheckBox
+        android:id="@+id/question3_choice1"
+        style="@style/BasicQuestionChoiceCheckBox"
+        android:text="@string/question3_choice1" />
+
+    <CheckBox
+        android:id="@+id/question3_choice2"
+        style="@style/BasicQuestionChoiceCheckBox"
+        android:text="@string/question3_choice2" />
+
+    <CheckBox
+        android:id="@+id/question3_choice3"
+        style="@style/BasicQuestionChoiceCheckBox"
+        android:text="@string/question3_choice3" />
+
+    <CheckBox
+        android:id="@+id/question3_choice4"
+        style="@style/BasicQuestionChoiceCheckBox"
+        android:text="@string/question3_choice4" />
+
+</LinearLayout>
