@@ -11,6 +11,7 @@
         android:orientation="vertical">
 
         <EditText
+            android:id="@+id/name_edit_text"
             style="@style/BasicEditText"
             android:hint="@string/name" />
 
@@ -26,10 +27,12 @@
                 android:text="@string/question1" />
 
             <CheckBox
+                android:id="@+id/question1_choice1"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/true_choice" />
 
             <CheckBox
+                android:id="@+id/question1_choice2"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/false_choice" />
 
@@ -43,18 +46,22 @@
                 android:text="@string/question2" />
 
             <CheckBox
+                android:id="@+id/question2_choice1"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/question2_choice1" />
 
             <CheckBox
+                android:id="@+id/question2_choice2"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/question2_choice2" />
 
             <CheckBox
+                android:id="@+id/question2_choice3"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/question2_choice3" />
 
             <CheckBox
+                android:id="@+id/question2_choice4"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/question2_choice4" />
 
@@ -68,18 +75,22 @@
                 android:text="@string/question3" />
 
             <CheckBox
+                android:id="@+id/question3_choice1"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/question3_choice1" />
 
             <CheckBox
+                android:id="@+id/question3_choice2"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/question3_choice2" />
 
             <CheckBox
+                android:id="@+id/question3_choice3"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/question3_choice3" />
 
             <CheckBox
+                android:id="@+id/question3_choice4"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/question3_choice4" />
 
@@ -93,18 +104,22 @@
                 android:text="@string/question4" />
 
             <CheckBox
+                android:id="@+id/question4_choice1"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/question4_choice1" />
 
             <CheckBox
+                android:id="@+id/question4_choice2"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/question4_choice2" />
 
             <CheckBox
+                android:id="@+id/question4_choice3"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/question4_choice3" />
 
             <CheckBox
+                android:id="@+id/question4_choice4"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/question4_choice4" />
 
@@ -118,18 +133,22 @@
                 android:text="@string/question5" />
 
             <CheckBox
+                android:id="@+id/question5_choice1"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/question5_choice1" />
 
             <CheckBox
+                android:id="@+id/question5_choice2"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/question5_choice2" />
 
             <CheckBox
+                android:id="@+id/question5_choice3"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/question5_choice3" />
 
             <CheckBox
+                android:id="@+id/question5_choice4"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/question5_choice4" />
 
@@ -143,18 +162,22 @@
                 android:text="@string/question6" />
 
             <CheckBox
+                android:id="@+id/question6_choice1"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/question6_choice1" />
 
             <CheckBox
+                android:id="@+id/question6_choice2"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/question6_choice2" />
 
             <CheckBox
+                android:id="@+id/question6_choice3"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/question6_choice3" />
 
             <CheckBox
+                android:id="@+id/question6_choice4"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/question6_choice4" />
 
@@ -168,18 +191,22 @@
                 android:text="@string/question7" />
 
             <CheckBox
+                android:id="@+id/question7_choice1"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/question7_choice1" />
 
             <CheckBox
+                android:id="@+id/question7_choice2"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/question7_choice2" />
 
             <CheckBox
+                android:id="@+id/question7_choice3"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/question7_choice3" />
 
             <CheckBox
+                android:id="@+id/question7_choice4"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/question7_choice4" />
 
@@ -193,10 +220,12 @@
                 android:text="@string/question8" />
 
             <CheckBox
+                android:id="@+id/question8_choice1"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/true_choice" />
 
             <CheckBox
+                android:id="@+id/question8_choice2"
                 style="@style/BasicQuestionChoiceCheckBox"
                 android:text="@string/false_choice" />
 
