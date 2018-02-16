@@ -3,6 +3,8 @@ package com.example.android.VCSQuiz;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.CheckBox;
+import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -10,6 +12,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+
+    /**
+     * This function is called when submit_answer button is clicked
+     */
+    public void submitAnswer(){
+        EditText nameEditText = (EditText) findViewById(R.id.name_edit_text);
+        String studentName = nameEditText.getText().toString();
+        Toast.makeText(this , "You 've got " + calculateGrade() + " out of 8 , " + studentName , Toast.LENGTH_LONG);
     }
 
     /**

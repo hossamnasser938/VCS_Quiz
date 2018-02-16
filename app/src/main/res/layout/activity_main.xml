@@ -237,7 +237,8 @@
 
             <Button
                 style="@style/BasicButton"
-                android:text="@string/submit_button"/>
+                android:text="@string/submit_button"
+                android:onClick="submitAnswer"/>
 
         </LinearLayout>
 
