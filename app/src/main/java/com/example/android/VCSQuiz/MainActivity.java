@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -68,11 +69,20 @@ public class MainActivity extends AppCompatActivity {
     private boolean isQuestionAnswerCorrect(int questionNumber , boolean... choicesValues){
         boolean isCorrect = true;
         int choiceNumber = 1;
-        CheckBox choice;
+        CheckBox checkBoxChoice;
+        RadioButton radioButtonChoice;
         for(boolean value : choicesValues){
-            choice = (CheckBox) findViewById(getId(questionNumber , choiceNumber));
-            if(value != choice.isChecked()){
-                return false;
+            if(questionNumber == 1 || questionNumber == 8){
+                radioButtonChoice = (RadioButton) findViewById(getId(questionNumber , choiceNumber));
+                if(value != radioButtonChoice.isChecked()) {
+                    return false;
+                }
+            }
+            else{
+                checkBoxChoice = (CheckBox) findViewById(getId(questionNumber , choiceNumber));
+                if(value != checkBoxChoice.isChecked()) {
+                    return false;
+                }
             }
             choiceNumber++;
         }
@@ -83,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
      * This function gets the id of a given question choice
      * @param questionNumber is the number of the question to get one of its choices' id
      * @param choiceNumber is the number of the choice to get its id
-     * @return CheckBox id of a given choice
+     * @return CheckBox or RadioButton id of a given choice
      */
     private int getId(int questionNumber , int choiceNumber){
         switch(questionNumber){
