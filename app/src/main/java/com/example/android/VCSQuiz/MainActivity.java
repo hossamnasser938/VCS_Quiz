@@ -33,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
      */
     private int calculateGrade(){
         EditText question9Answer;
+        String correctAnswer;
+        String userAnswer;
         int grade = 0;
         if(isQuestionAnswerCorrect(1 , true , false)){
             grade++;
@@ -59,7 +61,9 @@ public class MainActivity extends AppCompatActivity {
             grade++;
         }
         question9Answer = (EditText) findViewById(R.id.question9_edit_text);
-        if(question9Answer.getText().equals(getResources().getString(R.string.question9_answer))){
+        userAnswer = question9Answer.getText().toString();
+        correctAnswer = getResources().getString(R.string.question9_answer);
+        if(userAnswer.equals(correctAnswer)){
             grade++;
         }
         return grade;
