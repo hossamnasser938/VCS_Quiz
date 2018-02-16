@@ -249,7 +249,7 @@
             style="@style/BasicQuestionLinearLayout">
 
             <TextView
-                style="@style/BasicMainQuestionText"
+                style="@style/BasicQuestionText"
                 android:text="@string/question9"/>
 
             <EditText
