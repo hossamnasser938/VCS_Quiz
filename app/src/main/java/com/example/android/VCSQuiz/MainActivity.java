@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         if(isQuestionAnswerCorrect(7 , false , false , false , true)){
             grade++;
         }
-        if(isQuestionAnswerCorrect(1 , false , true)){
+        if(isQuestionAnswerCorrect(8 , false , true)){
             grade++;
         }
         return grade;
