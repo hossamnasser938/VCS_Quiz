@@ -29,21 +29,21 @@
 
     <string name="question5">5 / The multiple files you want to track together is known as</string>
     <string name="question5_choice1">Commit</string>
-    <string name="question5_choice2">Branch</string>
-    <string name="question5_choice3">Repository</string>
+    <string name="question5_choice2">Repository</string>
+    <string name="question5_choice3">Branch</string>
     <string name="question5_choice4">Remote</string>
 
     <string name="question6">6 / Which command line you use to download a specific repository from Github to your computer</string>
-    <string name="question6_choice1">Git branch URL</string>
+    <string name="question6_choice1">Git clone UR</string>
     <string name="question6_choice2">Git remote URL</string>
-    <string name="question6_choice3">Git clone URL</string>
+    <string name="question6_choice3">Git branch URL</string>
     <string name="question6_choice4">Git pull URL</string>
 
     <string name="question7">7 / Which command line you use to discard changes made in a specific file in working directory</string>
     <string name="question7_choice1">Git reset file_name</string>
     <string name="question7_choice2">Git remove file_name</string>
-    <string name="question7_choice3">Git checkout -- file_name</string>
-    <string name="question7_choice4">Git checkout file_name</string>
+    <string name="question7_choice3">Git checkout file_name</string>
+    <string name="question7_choice4">Git checkout -- file_name</string>
 
     <string name="question8">8 / To add a remote to your repository, you use the command line : Git remote add remote_name</string>
 

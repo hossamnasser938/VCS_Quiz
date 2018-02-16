@@ -13,6 +13,38 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
+     * This function calculates studen grade
+     */
+    private int calculateGrade(){
+        int grade = 0;
+        if(isQuestionAnswerCorrect(1 , true , false)){
+            grade++;
+        }
+        if(isQuestionAnswerCorrect(2 , false , true , true , false)){
+            grade++;
+        }
+        if(isQuestionAnswerCorrect(3 , true , false , false , true)){
+            grade++;
+        }
+        if(isQuestionAnswerCorrect(4 , false , false , true , false)){
+            grade++;
+        }
+        if(isQuestionAnswerCorrect(5 , false , true , false , false)){
+            grade++;
+        }
+        if(isQuestionAnswerCorrect(6 , true , false , false , false)){
+            grade++;
+        }
+        if(isQuestionAnswerCorrect(7 , false , false , false , true)){
+            grade++;
+        }
+        if(isQuestionAnswerCorrect(1 , false , true)){
+            grade++;
+        }
+        return grade;
+    }
+
+    /**
      * This function determines whether the student has solved a specific question correctly or not
      * @param questionNumber is the number of the question to be evaluated
      * @param choicesValues the correct answers of this question will be passed as true and wrong answers will be passed as false
